@@ -1,4 +1,6 @@
-# Image Scratping
+# Image Scraping
+
+画像ファイルを検索して収集する。
 
 検索キーワードを示す場合：
 
@@ -12,6 +14,8 @@ $ python imagescraping.py -t "japanese kimono" -d save_directory
 ```
 $ python imagescraping.py -u search_url_list.txt -d save_directory
 ```
+
+Note: multithreadの終了を確認していないのでコマンドが途中で止まってしまうようにみえる。出力がなくなれば終了。
 
 
 
